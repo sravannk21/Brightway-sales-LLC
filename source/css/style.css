@@ -48,7 +48,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .secondary-heading {
-  font-size: 3rem;
+  font-size: 3.2rem;
+}
+
+.heading-third {
+  font-size: 2.4rem;
+  text-transform: capitalize;
+  font-weight: 600;
 }
 
 .header-paragraph {
@@ -62,7 +68,8 @@ h1, h2, h3, h4, h5, h6 {
 .paragraph {
   color: #7A7A7A;
   letter-spacing: 0.2rem;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
+  line-height: 150%;
 }
 
 .u-colum-height-40rem {
@@ -116,6 +123,13 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #000;
 }
 
+.btn-plane {
+  text-decoration: none;
+}
+.btn-plane:hover {
+  color: #7A7A7A !important;
+}
+
 .sub-section-box1 {
   background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url("/source/img/hero-sub-banner3.jpg");
   background-size: cover;
@@ -147,7 +161,7 @@ h1, h2, h3, h4, h5, h6 {
   vertical-align: middle;
 }
 .sub-section-box2:hover {
-  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url("/source/img/hero-sub-banner2.jpg");
+  background-image: linear-gradient(to bottom right, rgba(32, 94, 168, 0.4), rgba(32, 94, 168, 0.8)), url("/source/img/hero-sub-banner2.jpg");
 }
 
 .sub-section-box3 {
@@ -170,10 +184,15 @@ h1, h2, h3, h4, h5, h6 {
   vertical-align: middle;
 }
 .sub-section-box3:hover {
-  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url("/source/img/hero-sub-banner.jpg");
+  background-image: linear-gradient(to bottom right, rgba(32, 94, 168, 0.4), rgba(32, 94, 168, 0.8)), url("/source/img/hero-sub-banner.jpg");
 }
 
 .hero-sub-section {
+  background-color: #efefef;
+  padding: 8rem 0;
+}
+
+.skills {
   padding: 8rem 0;
 }
 

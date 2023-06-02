@@ -34,3 +34,9 @@
         background-color: $color-black;
     }
 }
+.btn-plane {
+    text-decoration: none;
+    &:hover {
+        color: $color-light-gray !important;
+    }
+}

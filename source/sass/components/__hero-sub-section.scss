@@ -30,7 +30,7 @@
         vertical-align: middle;
     }
     &:hover {
-        background-image: linear-gradient(to bottom right, rgba($color-black,.4), rgba($color-black,.8)), url('/source/img/hero-sub-banner2.jpg');;
+        background-image: linear-gradient(to bottom right, rgba($color-primary,.4), rgba($color-primary,.8)), url('/source/img/hero-sub-banner2.jpg');;
     }
 }
 
@@ -55,6 +55,6 @@
         vertical-align: middle;
     }
     &:hover {
-        background-image: linear-gradient(to bottom right, rgba($color-black,.4), rgba($color-black,.8)), url('/source/img/hero-sub-banner.jpg');;
+        background-image: linear-gradient(to bottom right, rgba($color-primary,.4), rgba($color-primary,.8)), url('/source/img/hero-sub-banner.jpg');;
     }
 }
