@@ -32,8 +32,57 @@ body {
   font-family: "Poppins", sans-serif !important;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+  word-spacing: 0.5rem;
+}
+
+.heading-primary {
+  color: #fff;
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+.header-paragraph {
+  color: #fff;
+  font-size: 1.6rem;
+  letter-spacing: 0.2rem;
+  text-align: left;
+  width: 60%;
+}
+
 .logo-brightway {
   height: 8rem !important;
+}
+
+.header {
+  height: 80vh;
+  background-image: linear-gradient(to right, rgba(32, 94, 168, 0.6), rgba(32, 94, 168, 0.6)), url("/source/img/painting-slide-1.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.content-box {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(-47%, -50%);
+}
+.content-box__description {
+  margin-bottom: 5rem;
+}
+.btn-primary:visited, .btn-primary:link {
+  border: 2px solid #fff;
+  padding: 1.2rem 3.5rem;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.6rem;
+  transition: all 0.4s;
+}
+.btn-primary:hover, .btn-primary:active {
+  color: #000;
+  background-color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */

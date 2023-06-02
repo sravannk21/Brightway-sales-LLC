@@ -1,0 +1,22 @@
+.header{
+    height: 80vh;
+    background-image: linear-gradient(to right, rgba($color-primary,.6), rgba($color-primary,.6)), url('/source/img/painting-slide-1.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.content-box {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-47%,-50%);
+    &__caption{
+        
+    }
+    &__description {
+        margin-bottom: 5rem;
+    }
+    &__button {
+    
+    }
+}
