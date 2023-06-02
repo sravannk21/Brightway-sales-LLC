@@ -16,3 +16,21 @@
         background-color: $color-white;
     }
 }
+
+.btn-black {
+    &:visited,
+    &:link {
+        border: 2px solid $color-black;
+        padding: 1.2rem 3.5rem;
+        text-decoration: none;
+        color: $color-black;
+        font-size: 1.6rem;
+        transition: all .4s;
+    }
+
+    &:hover,
+    &:active {
+        color: $color-white;
+        background-color: $color-black;
+    }
+}

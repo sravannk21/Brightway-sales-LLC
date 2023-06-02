@@ -37,10 +37,18 @@ h1, h2, h3, h4, h5, h6 {
   word-spacing: 0.5rem;
 }
 
-.heading-primary {
-  color: #fff;
-  font-size: 5rem;
+.heading-primary,
+.secondary-heading {
   font-weight: 600;
+}
+
+.heading-primary {
+  font-size: 5rem;
+  color: #fff;
+}
+
+.secondary-heading {
+  font-size: 3rem;
 }
 
 .header-paragraph {
@@ -51,13 +59,23 @@ h1, h2, h3, h4, h5, h6 {
   width: 60%;
 }
 
+.paragraph {
+  color: #7A7A7A;
+  letter-spacing: 0.2rem;
+  font-size: 1.6rem;
+}
+
+.u-colum-height-40rem {
+  height: 40rem;
+}
+
 .logo-brightway {
   height: 8rem !important;
 }
 
 .header {
   height: 80vh;
-  background-image: linear-gradient(to right, rgba(32, 94, 168, 0.6), rgba(32, 94, 168, 0.6)), url("/source/img/painting-slide-1.jpg");
+  background-image: linear-gradient(to right, rgba(32, 94, 168, 0.4), rgba(32, 94, 168, 0.4)), url("/source/img/painting-slide-1.jpg");
   background-position: center;
   background-size: cover;
   position: relative;
@@ -83,6 +101,80 @@ h1, h2, h3, h4, h5, h6 {
 .btn-primary:hover, .btn-primary:active {
   color: #000;
   background-color: #fff;
+}
+
+.btn-black:visited, .btn-black:link {
+  border: 2px solid #000;
+  padding: 1.2rem 3.5rem;
+  text-decoration: none;
+  color: #000;
+  font-size: 1.6rem;
+  transition: all 0.4s;
+}
+.btn-black:hover, .btn-black:active {
+  color: #fff;
+  background-color: #000;
+}
+
+.sub-section-box1 {
+  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url("/source/img/hero-sub-banner3.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+.sub-section-box1__tittle {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 600;
+}
+
+.sub-section-box2 {
+  background-image: url("/source/img/hero-sub-banner2.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 90%;
+}
+.sub-section-box2__tittle {
+  opacity: 0;
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 600;
+  vertical-align: middle;
+  transition: all 0.3s;
+}
+.sub-section-box2:hover .sub-section-box2__tittle {
+  opacity: 1;
+  vertical-align: middle;
+}
+.sub-section-box2:hover {
+  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url("/source/img/hero-sub-banner2.jpg");
+}
+
+.sub-section-box3 {
+  background-image: url("/source/img/hero-sub-banner.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 90%;
+  transition: all 0.3s;
+}
+.sub-section-box3__tittle {
+  opacity: 0;
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 600;
+  vertical-align: middle;
+  transition: all 0.3s;
+}
+.sub-section-box3:hover .sub-section-box3__tittle {
+  opacity: 1;
+  vertical-align: middle;
+}
+.sub-section-box3:hover {
+  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url("/source/img/hero-sub-banner.jpg");
+}
+
+.hero-sub-section {
+  padding: 8rem 0;
 }
 
 /*# sourceMappingURL=style.css.map */
