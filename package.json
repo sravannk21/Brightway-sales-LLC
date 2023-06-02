@@ -1,0 +1,14 @@
+{
+  "name": "brightway",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile-sass": "sass --watch ./source/sass/main.scss ./source/css/style.css"
+  },
+  "author": "sravan nk",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.62.1"
+  }
+}

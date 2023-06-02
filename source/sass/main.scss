@@ -1,0 +1,14 @@
+//abstracts
+@import "./abstracts/_variables";
+@import "./abstracts/_functions";
+@import "./abstracts/_mixins";
+
+//basics
+@import "./basics/_basic";
+@import  "./basics/_animations";
+@import "./basics/_basic";
+@import "./basics/_typography";
+@import "./basics/_utilities";
+
+//components
+@import "./components/_navigation";
