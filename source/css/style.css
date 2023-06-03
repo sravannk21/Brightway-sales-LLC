@@ -76,6 +76,10 @@ h1, h2, h3, h4, h5, h6 {
   height: 40rem;
 }
 
+.u-margin-big {
+  margin: 8rem 0;
+}
+
 .logo-brightway {
   height: 8rem !important;
 }
@@ -185,6 +189,30 @@ h1, h2, h3, h4, h5, h6 {
 }
 .sub-section-box3:hover {
   background-image: linear-gradient(to bottom right, rgba(32, 94, 168, 0.4), rgba(32, 94, 168, 0.8)), url("/source/img/hero-sub-banner.jpg");
+}
+
+.skill-img {
+  filter: brightness(50%);
+  transition: all 0.9s;
+}
+.skill-img:hover {
+  filter: brightness(100%);
+}
+
+.features .feature {
+  list-style: none;
+}
+.features .feature:not(:last-child) {
+  margin-bottom: 2rem;
+}
+.features .feature__name {
+  font-size: 1.6rem;
+  margin-left: 2rem;
+}
+.features i {
+  font-size: 3rem;
+  color: #205EA8;
+  vertical-align: middle;
 }
 
 .hero-sub-section {

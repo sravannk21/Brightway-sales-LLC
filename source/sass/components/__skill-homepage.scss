@@ -1,0 +1,26 @@
+.skill-img {
+    filter: brightness(50%);
+    transition: all .9s;
+    &:hover {
+        filter: brightness(100%);
+    }
+}
+
+.features {
+    .feature {
+        list-style: none;
+        &:not(:last-child) {
+            margin-bottom: 2rem;
+        }
+
+        &__name {
+            font-size: 1.6rem;
+            margin-left: 2rem;
+        }
+    }
+    i {
+        font-size: 3rem;
+        color: $color-primary;
+        vertical-align: middle;
+    }
+}
