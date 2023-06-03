@@ -1,0 +1,28 @@
+.contact-form {
+    padding: 8rem 0;
+}
+.contactPage-social{
+    ul{
+        padding: 0;
+    }
+    li{
+        list-style: none;
+        display: inline-block;
+        &:not(:last-child) {
+            margin-right: 2rem;
+        }
+    }
+    i{
+        font-size: 3rem;
+        color: $color-primary;
+        &:hover {
+            color: $color-black;
+        }
+    }
+}
+.field {
+    background-color: rgba(32, 94, 168, 0.4);
+}
+.msg-field {
+    height: 20rem;
+}

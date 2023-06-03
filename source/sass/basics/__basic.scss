@@ -5,6 +5,9 @@
     padding: 0;
     box-sizing: inherit;
 }
+*:focus {
+    outline: none;
+}
 html {
     //this is default font size of the website
     font-size: $page-font-size;

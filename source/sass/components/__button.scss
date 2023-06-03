@@ -55,3 +55,14 @@
         color: $color-white;
     }
 }
+
+.btn-fill-blue {
+    &:link,
+    &:visited{
+        background-color: $color-primary;
+        color: $color-white;
+    }
+    &:hover {
+        background-color: $color-black;
+    }
+}
