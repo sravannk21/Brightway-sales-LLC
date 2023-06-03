@@ -328,6 +328,11 @@ h1, h2, h3, h4, h5, h6 {
   height: 30vh;
 }
 
+.contact-box__icon {
+  color: #205EA8;
+  font-size: 4rem;
+}
+
 .hero-sub-section {
   background-color: #efefef;
   padding: 8rem 0;
@@ -351,7 +356,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .contact-form {
-  padding: 8rem 0;
+  padding-top: 8rem;
 }
 
 .contactPage-social ul {
@@ -378,6 +383,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .msg-field {
   height: 20rem;
+}
+
+.contact-info {
+  padding: 8rem 0;
+}
+
+.location {
+  padding-bottom: 8rem;
 }
 
 /*# sourceMappingURL=style.css.map */
