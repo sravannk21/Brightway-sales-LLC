@@ -80,6 +80,14 @@ h1, h2, h3, h4, h5, h6 {
   margin: 8rem 0;
 }
 
+.u-page-common-bg {
+  background-color: #efefef;
+}
+
+.u-color-primary {
+  color: #205EA8;
+}
+
 .logo-brightway {
   height: 8rem !important;
 }
@@ -249,7 +257,6 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
   height: auto;
   padding: 8rem 0;
-  margin-bottom: 8rem;
 }
 
 /*# sourceMappingURL=style.css.map */
