@@ -5,3 +5,11 @@
 .skills {
     padding: 8rem 0;
 }
+.contactUs-Home-banner{
+    background-image: linear-gradient(to right, rgba($color-primary,.4), rgba($color-primary,.4)), url('/source/img/home-banner-painting.jpg');
+    background-position: top;
+    background-size: cover;
+    height: auto;
+    padding: 8rem 0;
+    margin-bottom: 8rem;
+}

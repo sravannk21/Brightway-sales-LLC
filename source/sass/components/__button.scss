@@ -1,13 +1,11 @@
+//primary button for the website
 .btn-primary {
 
     &:visited,
     &:link {
-        border: 2px solid $color-white;
-        padding: 1.2rem 3.5rem;
-        text-decoration: none;
+        @include btn-basic;
         color: $color-white;
-        font-size: 1.6rem;
-        transition: all .4s;
+        border: 2px solid $color-white;
     }
 
     &:hover,
@@ -17,15 +15,14 @@
     }
 }
 
+//when hover black color background display
 .btn-black {
+
     &:visited,
     &:link {
-        border: 2px solid $color-black;
-        padding: 1.2rem 3.5rem;
-        text-decoration: none;
+        @include btn-basic;
         color: $color-black;
-        font-size: 1.6rem;
-        transition: all .4s;
+        border: 2px solid $color-black;
     }
 
     &:hover,
@@ -34,9 +31,27 @@
         background-color: $color-black;
     }
 }
+
+//button without border
 .btn-plane {
     text-decoration: none;
+
     &:hover {
         color: $color-light-gray !important;
+    }
+}
+
+//secondary button with filled color
+.btn-fill {
+
+    &:link,
+    &:visited {
+        @include btn-basic;
+        color: $color-black;
+        background-color: $color-white;
+    }
+    &:hover {
+        background-color: $color-primary;
+        color: $color-white;
     }
 }

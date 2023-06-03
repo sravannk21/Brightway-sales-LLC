@@ -102,12 +102,12 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 5rem;
 }
 .btn-primary:visited, .btn-primary:link {
-  border: 2px solid #fff;
   padding: 1.2rem 3.5rem;
   text-decoration: none;
-  color: #fff;
   font-size: 1.6rem;
   transition: all 0.4s;
+  color: #fff;
+  border: 2px solid #fff;
 }
 .btn-primary:hover, .btn-primary:active {
   color: #000;
@@ -115,12 +115,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-black:visited, .btn-black:link {
-  border: 2px solid #000;
   padding: 1.2rem 3.5rem;
   text-decoration: none;
-  color: #000;
   font-size: 1.6rem;
   transition: all 0.4s;
+  color: #000;
+  border: 2px solid #000;
 }
 .btn-black:hover, .btn-black:active {
   color: #fff;
@@ -132,6 +132,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 .btn-plane:hover {
   color: #7A7A7A !important;
+}
+
+.btn-fill:link, .btn-fill:visited {
+  padding: 1.2rem 3.5rem;
+  text-decoration: none;
+  font-size: 1.6rem;
+  transition: all 0.4s;
+  color: #000;
+  background-color: #fff;
+}
+.btn-fill:hover {
+  background-color: #205EA8;
+  color: #fff;
 }
 
 .sub-section-box1 {
@@ -215,6 +228,12 @@ h1, h2, h3, h4, h5, h6 {
   vertical-align: middle;
 }
 
+.banner-box {
+  background-color: #205EA8;
+  width: 50%;
+  text-align: end;
+}
+
 .hero-sub-section {
   background-color: #efefef;
   padding: 8rem 0;
@@ -222,6 +241,15 @@ h1, h2, h3, h4, h5, h6 {
 
 .skills {
   padding: 8rem 0;
+}
+
+.contactUs-Home-banner {
+  background-image: linear-gradient(to right, rgba(32, 94, 168, 0.4), rgba(32, 94, 168, 0.4)), url("/source/img/home-banner-painting.jpg");
+  background-position: top;
+  background-size: cover;
+  height: auto;
+  padding: 8rem 0;
+  margin-bottom: 8rem;
 }
 
 /*# sourceMappingURL=style.css.map */
