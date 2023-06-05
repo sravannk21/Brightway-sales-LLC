@@ -102,12 +102,20 @@ h1, h2, h3, h4, h5, h6 {
   color: #205EA8;
 }
 
+.u-color-primary-bg {
+  background-color: #205EA8;
+}
+
 .u-margin-big {
   margin: 8rem 0;
 }
 
 .u-navigation-bg {
   background-color: rgba(131, 131, 131, 0.5);
+}
+
+.u-width-90 {
+  width: 90%;
 }
 
 .logo-brightway {
@@ -178,6 +186,19 @@ h1, h2, h3, h4, h5, h6 {
   height: 1px;
   content: "";
   background-color: #fff;
+}
+
+.service {
+  padding: 8rem 0;
+}
+
+.service-features {
+  padding: 8rem 0;
+  margin: 8rem 0;
+}
+
+.questions {
+  padding: 8rem 0;
 }
 
 .btn-primary:visited, .btn-primary:link {

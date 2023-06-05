@@ -10,9 +10,15 @@
 .u-color-primary {
     color: $color-primary;
 }
+.u-color-primary-bg {
+    background-color: $color-primary;
+}
 .u-margin-big {
     margin: 8rem 0;
 }
 .u-navigation-bg {
     background-color: rgba(131, 131, 131, 0.5);
+}
+.u-width-90 {
+    width: 90%;
 }
