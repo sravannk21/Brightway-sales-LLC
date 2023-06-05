@@ -1,0 +1,25 @@
+.ceo-msg{
+    padding: 8rem 0;
+}
+.img-box {
+    box-shadow: 0 1rem 2rem rgba($color-black,.3);
+    position: relative;
+    transition: all .9s;
+    &:hover {
+        background-color: rgba($color-primary,.6);
+    }
+}
+.ceo-details{
+    &__name {
+        background-color: rgba($color-primary, .8);
+        padding: 1rem;
+    }
+    position: absolute;
+    bottom: 2rem;
+}
+.about-to-service {
+    padding: 8rem 0;
+    background-image: linear-gradient(to right, rgba($color-primary, .7), rgba($color-primary,.7)), url('/source/img/about-service.jpg');
+    background-size: cover;
+    background-position: center;
+}

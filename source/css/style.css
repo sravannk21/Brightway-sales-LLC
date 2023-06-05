@@ -201,6 +201,95 @@ h1, h2, h3, h4, h5, h6 {
   padding: 8rem 0;
 }
 
+.hero-sub-section {
+  background-color: #efefef;
+  padding: 8rem 0;
+}
+
+.skills {
+  padding: 8rem 0;
+}
+
+.contactUs-Home-banner {
+  background-image: linear-gradient(to right, rgba(32, 94, 168, 0.4), rgba(32, 94, 168, 0.4)), url("/source/img/home-banner-painting.jpg");
+  background-position: top;
+  background-size: cover;
+  height: auto;
+  padding: 8rem 0;
+}
+
+.footer {
+  padding: 8rem 0;
+  background-color: #959595;
+}
+
+.contact-form {
+  padding-top: 8rem;
+}
+
+.contactPage-social ul {
+  padding: 0;
+}
+.contactPage-social li {
+  list-style: none;
+  display: inline-block;
+}
+.contactPage-social li:not(:last-child) {
+  margin-right: 2rem;
+}
+.contactPage-social i {
+  font-size: 3rem;
+  color: #205EA8;
+}
+.contactPage-social i:hover {
+  color: #000;
+}
+
+.field {
+  background-color: rgba(32, 94, 168, 0.4);
+}
+
+.msg-field {
+  height: 20rem;
+}
+
+.contact-info {
+  padding: 8rem 0;
+}
+
+.location {
+  padding-bottom: 8rem;
+}
+
+.ceo-msg {
+  padding: 8rem 0;
+}
+
+.img-box {
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
+  position: relative;
+  transition: all 0.9s;
+}
+.img-box:hover {
+  background-color: rgba(32, 94, 168, 0.6);
+}
+
+.ceo-details {
+  position: absolute;
+  bottom: 2rem;
+}
+.ceo-details__name {
+  background-color: rgba(32, 94, 168, 0.8);
+  padding: 1rem;
+}
+
+.about-to-service {
+  padding: 8rem 0;
+  background-image: linear-gradient(to right, rgba(32, 94, 168, 0.7), rgba(32, 94, 168, 0.7)), url("/source/img/about-service.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
 .btn-primary:visited, .btn-primary:link {
   padding: 1.2rem 3.5rem;
   text-decoration: none;
@@ -352,66 +441,6 @@ h1, h2, h3, h4, h5, h6 {
 .contact-box__icon {
   color: #205EA8;
   font-size: 4rem;
-}
-
-.hero-sub-section {
-  background-color: #efefef;
-  padding: 8rem 0;
-}
-
-.skills {
-  padding: 8rem 0;
-}
-
-.contactUs-Home-banner {
-  background-image: linear-gradient(to right, rgba(32, 94, 168, 0.4), rgba(32, 94, 168, 0.4)), url("/source/img/home-banner-painting.jpg");
-  background-position: top;
-  background-size: cover;
-  height: auto;
-  padding: 8rem 0;
-}
-
-.footer {
-  padding: 8rem 0;
-  background-color: #959595;
-}
-
-.contact-form {
-  padding-top: 8rem;
-}
-
-.contactPage-social ul {
-  padding: 0;
-}
-.contactPage-social li {
-  list-style: none;
-  display: inline-block;
-}
-.contactPage-social li:not(:last-child) {
-  margin-right: 2rem;
-}
-.contactPage-social i {
-  font-size: 3rem;
-  color: #205EA8;
-}
-.contactPage-social i:hover {
-  color: #000;
-}
-
-.field {
-  background-color: rgba(32, 94, 168, 0.4);
-}
-
-.msg-field {
-  height: 20rem;
-}
-
-.contact-info {
-  padding: 8rem 0;
-}
-
-.location {
-  padding-bottom: 8rem;
 }
 
 /*# sourceMappingURL=style.css.map */
