@@ -124,7 +124,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .header {
   height: 80vh;
-  background-image: linear-gradient(to right, rgba(32, 94, 168, 0.4), rgba(32, 94, 168, 0.4)), url("./source/img/painting-slide-1.jpg");
+  background-image: linear-gradient(to right, rgba(32, 94, 168, 0.4), rgba(32, 94, 168, 0.4)), url("/source/img/painting-slide-1.jpg");
   background-position: center;
   background-size: cover;
   position: relative;
@@ -211,7 +211,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .contactUs-Home-banner {
-  background-image: linear-gradient(to right, rgba(32, 94, 168, 0.4), rgba(32, 94, 168, 0.4)), url("./source/img/home-banner-painting.jpg");
+  background-image: linear-gradient(to right, rgba(32, 94, 168, 0.4), rgba(32, 94, 168, 0.4)), url("/source/img/home-banner-painting.jpg");
   background-position: top;
   background-size: cover;
   height: auto;
@@ -285,7 +285,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .about-to-service {
   padding: 8rem 0;
-  background-image: linear-gradient(to right, rgba(32, 94, 168, 0.7), rgba(32, 94, 168, 0.7)), url("./source/img/about-service.jpg");
+  background-image: linear-gradient(to right, rgba(32, 94, 168, 0.7), rgba(32, 94, 168, 0.7)), url("/source/img/about-service.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -345,7 +345,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .sub-section-box1 {
-  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url("./source/img/hero-sub-banner3.jpg");
+  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url("/source/img/hero-sub-banner3.jpg");
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -432,7 +432,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .banner {
-  background-image: linear-gradient(to right, rgba(131, 131, 131, 0.5), rgba(131, 131, 131, 0.5)), url("./source/img/contact/banner.jpg");
+  background-image: linear-gradient(to right, rgba(131, 131, 131, 0.5), rgba(131, 131, 131, 0.5)), url("/source/img/contact/banner.jpg");
   background-position: center;
   background-size: cover;
   height: 30vh;
