@@ -1,11 +1,11 @@
 .header{
     height: 80vh;
-    background-image: linear-gradient(to right, rgba($color-primary,.4), rgba($color-primary,.4)), url('/source/img/painting-slide-1.jpg');
+    background-image: linear-gradient(to right, rgba($color-primary,.8), rgba($color-primary,.8)), url('/source/img/painting-slide-1.jpg');
     background-position: center;
     background-size: cover;
     position: relative;
     nav {
-        background-color: rgba(131,131,131,.5);
+        background-color: rgba(131,131,131,.8);
     }
 }
 .content-box {
