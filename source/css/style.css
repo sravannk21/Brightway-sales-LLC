@@ -123,21 +123,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header {
-  height: 80vh;
+  height: 100vh;
   background-image: linear-gradient(to right, rgba(32, 94, 168, 0.8), rgba(32, 94, 168, 0.8)), url("/source/img/painting-slide-1.jpg");
   background-position: center;
   background-size: cover;
-  position: relative;
 }
 .header nav {
   background-color: rgba(131, 131, 131, 0.8);
+  position: relative;
 }
 
 .content-box {
   position: absolute;
   top: 50%;
-  left: 45%;
-  transform: translate(-47%, -50%);
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .content-box__description {
   margin-bottom: 5rem;
