@@ -39,5 +39,8 @@ $(document).ready(function() {
 
     $('.js-waypoint-6').waypoint(function(direction) {
         $('.js-waypoint-6').addClass('animate__animated animate__bounceIn')
+    },
+    {
+        offset: '50%'
     })
 })

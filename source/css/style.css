@@ -76,11 +76,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header-paragraph {
-  color: #fff;
-  font-size: 1.4rem;
+  color: #000;
+  font-size: 1.8rem;
   letter-spacing: 0.2rem;
   text-align: left;
-  width: 60%;
 }
 
 .paragraph {
@@ -128,7 +127,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .header {
   height: 100vh;
-  background-image: linear-gradient(to right, rgba(32, 94, 168, 0.8), rgba(32, 94, 168, 0.8)), url("/source/img/painting-slide-1.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/source/img/hero-bg.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -137,15 +136,14 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 
-.content-box {
+.header-content {
+  position: relative;
+}
+.header-content__box {
   position: absolute;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
-.content-box__description {
-  margin-bottom: 5rem;
-}
+
 .quick-links {
   padding: 0;
 }

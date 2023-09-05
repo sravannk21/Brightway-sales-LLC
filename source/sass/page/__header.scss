@@ -1,6 +1,6 @@
 .header{
     height: 100vh;
-    background-image: linear-gradient(to right, rgba($color-primary,.8), rgba($color-primary,.8)), url('/source/img/painting-slide-1.jpg');
+    background-image: linear-gradient(to right, rgba($color-black,.4), rgba($color-black,.4)), url('/source/img/hero-bg.jpg');
     background-position: center;
     background-size: cover;
     nav {
@@ -8,18 +8,10 @@
         position: relative;
     }
 }
-.content-box {
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-    &__caption{
-        
-    }
-    &__description {
-        margin-bottom: 5rem;
-    }
-    &__button {
-    
+.header-content{
+    position: relative;
+    &__box{
+        position: absolute;
+        top: 50%;
     }
 }
