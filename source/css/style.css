@@ -121,6 +121,10 @@ h1, h2, h3, h4, h5, h6 {
   width: 90%;
 }
 
+.u-border-radius-15 {
+  border-radius: 10%;
+}
+
 .logo-brightway {
   height: 6rem !important;
 }
