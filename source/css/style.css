@@ -140,7 +140,7 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
 }
 .header nav {
-  background-color: rgba(131, 131, 131, 0.8);
+  background-color: #fff;
   position: relative;
 }
 
