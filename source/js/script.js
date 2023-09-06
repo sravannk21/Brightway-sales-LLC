@@ -43,4 +43,40 @@ $(document).ready(function() {
     {
         offset: '50%'
     })
+    $('.js-waypoint-7').waypoint(function(direction) {
+        $('.js-waypoint-7').addClass('animate__animated animate__fadeInRight')
+    },
+    {
+        offset: '50%'
+    })
+    $('.js-waypoint-8').waypoint(function(direction) {
+        $('.js-waypoint-8').addClass('animate__animated animate__fadeInLeft')
+    },
+    {
+        offset: '50%'
+    })
+    $('.js-waypoint-9').waypoint(function(direction) {
+        $('.js-waypoint-9').addClass('animate__animated animate__fadeInLeft')
+    },
+    {
+        offset: '50%'
+    })
+    $('.js-waypoint-10').waypoint(function(direction) {
+        $('.js-waypoint-10').addClass('animate__animated animate__fadeInLeft')
+    },
+    {
+        offset: '50%'
+    })
+    $('.js-waypoint-11').waypoint(function(direction) {
+        $('.js-waypoint-11').addClass('animate__animated animate__fadeInLeft')
+    },
+    {
+        offset: '50%'
+    })
+    $('.js-waypoint-12').waypoint(function(direction) {
+        $('.js-waypoint-12').addClass('animate__animated animate__fadeInLeft')
+    },
+    {
+        offset: '50%'
+    })
 })
