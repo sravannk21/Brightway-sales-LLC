@@ -1,4 +1,21 @@
 $(document).ready(function() {
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        autoplay: true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:5
+            }
+        }
+    }),
     $('.js-waypoint-1').waypoint(function(direction) {
         $('.js-waypoint-1').addClass('animate__animated animate__fadeInLeft')
     },
