@@ -31,6 +31,7 @@ $(document).ready(function() {
             }
         }
     }),
+
     $('.js-waypoint-1').waypoint(function(direction) {
         $('.js-waypoint-1').addClass('animate__animated animate__fadeInLeft')
     },
