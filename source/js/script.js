@@ -2,7 +2,6 @@ $(document).ready(function() {
     $('#brands').owlCarousel({
         loop:true,
         margin:10,
-        nav:true,
         autoplay: true,
         responsive:{
             0:{
@@ -19,7 +18,6 @@ $(document).ready(function() {
     $('#showrooms').owlCarousel({
         loop:true,
         margin:10,
-        nav:true,
         autoplay: true,
         responsive:{
             0:{

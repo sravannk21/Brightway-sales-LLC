@@ -359,20 +359,8 @@ address {
   background-color: #000;
 }
 
-.sub-section-box1 {
-  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url("/source/img/hero-sub-banner3.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 100%;
-}
-.sub-section-box1__tittle {
-  font-size: 2rem;
-  color: #fff;
-  font-weight: 600;
-}
-
 .sub-section-box2 {
-  background-image: url("/source/img/hero-sub-banner2.jpg");
+  background-image: url("/source/img/SAFIYA_koranpeedika.png");
   background-size: cover;
   background-position: center;
   height: 90%;
@@ -390,30 +378,7 @@ address {
   vertical-align: middle;
 }
 .sub-section-box2:hover {
-  background-image: linear-gradient(to bottom right, rgba(32, 94, 168, 0.4), rgba(32, 94, 168, 0.8)), url("/source/img/hero-sub-banner2.jpg");
-}
-
-.sub-section-box3 {
-  background-image: url("/source/img/hero-sub-banner.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 90%;
-  transition: all 0.3s;
-}
-.sub-section-box3__tittle {
-  opacity: 0;
-  font-size: 2rem;
-  color: #fff;
-  font-weight: 600;
-  vertical-align: middle;
-  transition: all 0.3s;
-}
-.sub-section-box3:hover .sub-section-box3__tittle {
-  opacity: 1;
-  vertical-align: middle;
-}
-.sub-section-box3:hover {
-  background-image: linear-gradient(to bottom right, rgba(32, 94, 168, 0.4), rgba(32, 94, 168, 0.8)), url("/source/img/hero-sub-banner.jpg");
+  background-image: linear-gradient(to bottom right, rgba(32, 94, 168, 0.4), rgba(32, 94, 168, 0.8)), url("/source/img/SAFIYA_koranpeedika.png");
 }
 
 .skill-img {
