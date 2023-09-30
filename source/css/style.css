@@ -295,12 +295,7 @@ address {
 }
 
 .img-box {
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
   position: relative;
-  transition: all 0.9s;
-}
-.img-box:hover {
-  background-color: rgba(32, 94, 168, 0.6);
 }
 
 .ceo-details {
