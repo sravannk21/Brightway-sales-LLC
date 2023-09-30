@@ -1,3 +1,13 @@
 .logo-brightway {
     height: 6rem !important;
 }
+.nav-link{
+    border-bottom: 1px solid transparent !important;
+    padding: 0 !important;
+    transition: all .3s ease-in !important;
+    &:hover,&:active {
+        color: $color-primary !important;
+        border-bottom: 1px solid $color-primary !important;
+        padding: 0 !important;
+    }
+}

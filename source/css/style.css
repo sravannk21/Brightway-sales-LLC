@@ -137,6 +137,17 @@ h1, h2, h3, h4, h5, h6 {
   height: 6rem !important;
 }
 
+.nav-link {
+  border-bottom: 1px solid transparent !important;
+  padding: 0 !important;
+  transition: all 0.3s ease-in !important;
+}
+.nav-link:hover, .nav-link:active {
+  color: #205EA8 !important;
+  border-bottom: 1px solid #205EA8 !important;
+  padding: 0 !important;
+}
+
 .header {
   height: 100vh;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/source/img/hero-bg.jpg");
