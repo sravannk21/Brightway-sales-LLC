@@ -129,6 +129,10 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 10%;
 }
 
+.u-container-250px {
+  height: 25rem;
+}
+
 .logo-brightway {
   height: 6rem !important;
 }
@@ -411,7 +415,7 @@ address {
 }
 
 .banner {
-  background-image: linear-gradient(to right, rgba(131, 131, 131, 0.5), rgba(131, 131, 131, 0.5)), url("/source/img/contact/banner.jpg");
+  background-image: linear-gradient(to right, rgba(131, 131, 131, 0.7), rgba(131, 131, 131, 0.7)), url("/source/img/contact/banner.jpg");
   background-position: center;
   background-size: cover;
   height: 30vh;
